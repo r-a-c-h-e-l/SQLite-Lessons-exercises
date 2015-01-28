@@ -1,0 +1,25 @@
+hardknocks|brooklyn|ny|10010
+life|bethesda|md|20817
+general assembly|new york|ny|10010
+
+0|name|TEXT|0||0
+1|city|TEXT|0||0
+2|state|TEXT|0||0
+3|zip|INTEGER|0||0
+
+Manhattan High|brooklyn|ny|10010
+Manhattan High|bethesda|md|20817
+Manhattan High|new york|ny|10010
+
+mrs.mean|mean@teach.com|math|28
+mr.math|math@teach.com|math|45
+mr.white|walterwhite@teach.com|chemistry|44
+mrs.bitters|bitters@teach.com|art history|60
+mr.darwin|darwin@teach.com|biology|33
+mr.melodrama|melodrama@teach.com|drama|38
+
+CREATE TABLE teachers (name TEXT, email TEXT, subject TEXT, age INTEGER);
+
+UPDATE teachers SET age= 41 WHERE subject="math";
+
+DELETE FROM teachers WHERE subject="math";

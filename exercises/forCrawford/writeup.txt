@@ -1,0 +1,13 @@
+1. A database is a file that contains one or more tables.
+These tables store data in rows with various attributes or values across the columns.
+You can use databases for persistance of data.
+
+2. Files can be time consuming to read and then you have to sort through the data. They are also difficult to manage and relate.
+With databases you can query for the specific information you require.
+
+3. A schema is essentially a skeleton for your table. Or template, whichever you prefer.
+it defines what columns your table should contain and what type the values with be.
+
+4. My guess is no. For instance, when you are accessing your database through a ruby script, the
+line db.execute creates an instance in which you run sqlite3 to access your database. Once this line of code is executed, you exit
+that instance. This is only my humble assumption!
